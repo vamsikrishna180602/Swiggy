@@ -20,9 +20,6 @@ function Home({coordinate}) {
       });
   }, [coordinate]);
 
- 
-
- 
   const shimmerEffect = (
     <div className="animate-pulse">
       <div className="h-40 bg-gray-300 rounded-lg mb-4"></div>
