@@ -54,7 +54,7 @@ function App() {
           coordinate = {coordinate}
           setCoordinate = {setCoordinate}/>
           <Routes>
-            <Route path='/Swiggy' element={<Home setArea={setArea} 
+            <Route path='/' element={<Home setArea={setArea} 
           coordinate = {coordinate} />} />
             <Route path='/restaurantMenu/:restName/:restId' element={<RestaurantMenu  />}  />
            <Route path='/search'  element = {<Search  area ={area} locationSearch = {locationSearch} searchedLocation = {searchedLocation}/>}>
